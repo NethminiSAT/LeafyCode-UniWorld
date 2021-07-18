@@ -79,7 +79,7 @@ const Login = ({users}) => {
 
 export default Login
 
-
+//Login data
 export async function getStaticProps() {
   const {data} = await client.query({
     query: gql`
