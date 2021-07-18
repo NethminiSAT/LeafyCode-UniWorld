@@ -1,0 +1,31 @@
+{
+  "name": "uniworldecw",
+  "version": "1.0.0",
+  "description": "uniworld is a ecommerce web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NethminiSAT/E-commerce-UniWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NethminiSAT/E-commerce-UniWorld/issues"
+  },
+  "homepage": "https://github.com/NethminiSAT/E-commerce-UniWorld#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "graphql-tools": "^7.0.5",
+    "nodemon": "^2.0.12"
+  }
+}
